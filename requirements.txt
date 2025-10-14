@@ -1,0 +1,8 @@
+torch                      # PyTorch (for model operations and GPU support)
+transformers               # Hugging Face Transformers
+datasets                   # Hugging Face Datasets
+sentence-transformers      # For the Embedding Model in RAG
+faiss-cpu                  # For the FAISS Retriever component in RAG
+tqdm                       # For progress bars during generation
+protobuf                   # A common dependency for many Google libraries (optional but safe to include)
+requests                   # For general web requests (optional but safe to include)
