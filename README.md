@@ -67,7 +67,7 @@ It uses **`bigscience/bloomz-560m`** as the generation model.
 4. **Confidence Scoring:** Compute reliability based on retrieval relevance and safety.  
 
 ### 🧰 How to Run
-1. Open `generate_submission.ipynb` in Google Colab.  
+1. Open `nlp4health_final_rag(1).py` in Google Colab.  
 2. Update model and dataset paths in the notebook.  
 3. Run all cells sequentially to execute the full RAG pipeline.
 
