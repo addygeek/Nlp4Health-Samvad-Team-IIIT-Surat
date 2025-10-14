@@ -26,8 +26,9 @@ Each language folder contains dialogues (`.jsonl`), Q&A pairs, key–value summa
    pip install -r requirements.txt
    ```
 2. Open `generate_submission.ipynb` in **Google Colab (GPU runtime)**.
-3. Update paths to your dataset and model in Google Drive.
-4. Run all cells to produce `submission.zip` containing generated summaries.
+3. MyDrive/NLP_A14_Health/mT5_Baseline_Model/checkpoint-9135/
+4. Model_Path:- https://drive.google.com/drive/folders/1BloBv_EP8EG4EbpDg1wyz5n-UQupe5wU?usp=drive_link
+5. Run all cells to produce `submission.zip` containing generated summaries.
 
 ### 📈 Output
 A fine-tuned **mT5 model** that generates concise, multilingual dialogue summaries.
