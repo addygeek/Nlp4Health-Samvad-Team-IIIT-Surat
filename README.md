@@ -75,6 +75,14 @@ It uses **`bigscience/bloomz-560m`** as the generation model.
 ## Other Scripts:
 - **mT5 Summarization Training Script:** `mT5 Summarization Training Script (Final Corrected Version.ipynb)`  
 - **Evaluation Script:** `Evaluation_Script.ipynb` for evaluating generated summaries
+-  BASELINE MODEL (Original Data) ---
+  ROUGE-L Score: 12.41
+  BERTScore (F1): 80.48
+
+--- NEW MODEL (Cleaned Data, Stable Training) ---
+  ROUGE-L Score: 8.81
+  BERTScore (F1): 56.74
+
 
 
 
