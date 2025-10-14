@@ -25,7 +25,7 @@ Each language folder contains dialogues (`.jsonl`), Q&A pairs, key–value summa
    ```bash
    pip install -r requirements.txt
    ```
-2. Open `generate_submission.ipynb` in **Google Colab (GPU runtime)**.
+2. Open `generate_summaries.py` in **Google Colab (GPU runtime)**.
 3. MyDrive/NLP_A14_Health/mT5_Baseline_Model/checkpoint-9135/
 4. Model_Path:- https://drive.google.com/drive/folders/1BloBv_EP8EG4EbpDg1wyz5n-UQupe5wU?usp=drive_link
 5. Run all cells to produce `submission.zip` containing generated summaries.
