@@ -65,7 +65,9 @@ It uses **`bigscience/bloomz-560m`** as the generation model.
 1. **Embedding Generation:** Create dense, normalized embeddings for all QA pairs.  
 2. **Retrieval:** Use FAISS to fetch top-K relevant entries with optional language filtering.  
 3. **Answer Generation:** Generate safe, coherent answers using top contexts and prompts.  
-4. **Confidence Scoring:** Compute reliability based on retrieval relevance and safety.  
+4. **Confidence Scoring:** Compute reliability based on retrieval relevance and safety.
+   <img width="831" height="821" alt="image" src="https://github.com/user-attachments/assets/8d3fab2c-04ef-4c8b-8342-fefbf0fdaedc" />
+
 
 ### 🧰 How to Run
 1. Open `nlp4health_final_rag(1).py` in Google Colab.  
