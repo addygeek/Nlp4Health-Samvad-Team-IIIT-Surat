@@ -53,7 +53,7 @@ It uses **`bigscience/bloomz-560m`** as the generation model.
 ### 🧩 Core Components
 | Module | Description |
 |---------|-------------|
-| **Embedding Model** | SentenceTransformer (`all-MiniLM-L6-v2`) generates dense multilingual embeddings. |
+| **Embedding Model** | SentenceTransformer (`"intfloat/e5-large"`) generates dense multilingual embeddings. |
 | **Retriever** | FAISS (Inner Product) for efficient similarity search across QA datasets. |
 | **Answer Generator** | MT5/BLOOMZ models generate patient-friendly answers with context awareness. |
 | **Confidence Scorer** | Combines retrieval quality, language detection, and safety checks. |
