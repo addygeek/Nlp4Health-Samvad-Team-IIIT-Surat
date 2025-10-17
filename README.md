@@ -40,7 +40,7 @@ A fine-tuned **mT5 model** that generates concise, multilingual dialogue summari
 
 ### 🔍 Overview
 The **Enterprise Multilingual Medical RAG System** combines retrieval and generation to provide multilingual, safe, and contextually accurate medical answers.  
-It uses **`bigscience/bloomz-560m`** as the generation model.
+It uses **`sarvamai/sarvam-1`** as the generation model.
 
 ### ✨ Key Features
 - **Semantic Retrieval:** Embedding-based search using `SentenceTransformer` and FAISS.  
