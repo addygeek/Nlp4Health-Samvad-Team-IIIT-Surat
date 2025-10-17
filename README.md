@@ -44,7 +44,7 @@ It uses **`bigscience/bloomz-560m`** as the generation model.
 
 ### ✨ Key Features
 - **Semantic Retrieval:** Embedding-based search using `SentenceTransformer` and FAISS.  
-- **Answer Generation:** Context-aware response generation using multilingual MT5/BLOOMZ.  
+- **Answer Generation:** Context-aware response generation using multilingual "sarvamai/sarvam-1" model.  
 - **Language Detection & Translation:** Handles multilingual inputs for consistent processing.  
 - **Confidence Scoring:** Evaluates answer reliability using retrieval and linguistic metrics.  
 - **Safety Validation:** Filters unsafe or restricted medical topics with severity-based alerts.  
@@ -55,7 +55,7 @@ It uses **`bigscience/bloomz-560m`** as the generation model.
 |---------|-------------|
 | **Embedding Model** | SentenceTransformer (`"intfloat/e5-large"`) generates dense multilingual embeddings. |
 | **Retriever** | FAISS (Inner Product) for efficient similarity search across QA datasets. |
-| **Answer Generator** | MT5/BLOOMZ models generate patient-friendly answers with context awareness. |
+| **Answer Generator** | sarvamai/sarvam-1 models generate patient-friendly answers with context awareness and also in the same language as the user's question. |
 | **Confidence Scorer** | Combines retrieval quality, language detection, and safety checks. |
 | **Safety Guard** | Detects emergencies and restricted topics; ensures medical accuracy. |
 
