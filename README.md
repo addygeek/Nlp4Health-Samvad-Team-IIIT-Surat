@@ -108,6 +108,6 @@ This project delivers a **comprehensive multilingual medical NLP solution**, com
 - **RAG-based question answering** for safe, multilingual, and explainable medical assistance.
 
 
-**Authors:** Rakesh Kumar, Aditya Kumar, Devansh Khushwaha, *Janhavi Naik*  
+**Authors:** Rakesh Kumar Nayak, Aditya Kumar, Devansh Khushwaha, *Janhavi Naik*  
 **Affiliation:** *NLP-AI4Health Workshop Participants*  
 **Year:** 2025
